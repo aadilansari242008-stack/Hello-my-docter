@@ -8,11 +8,12 @@
 body{
     background:#f5f7fa;
     color:#333;
+    line-height:1.6;
 }
 
 header{
     background:#0d6efd;
-    color:white;
+    color:#fff;
     text-align:center;
     padding:20px;
 }
@@ -27,9 +28,9 @@ header p{
 }
 
 .hero{
+    background:#eaf4ff;
     text-align:center;
     padding:60px 20px;
-    background:#eaf4ff;
 }
 
 .hero h2{
@@ -40,9 +41,11 @@ header p{
 .hero p{
     font-size:18px;
     margin-bottom:20px;
-}.hero button{
+}
+
+.hero button{
     background:#0d6efd;
-    color:white;
+    color:#fff;
     border:none;
     padding:12px 25px;
     font-size:16px;
@@ -61,11 +64,10 @@ header p{
 
 .doctors h2{
     margin-bottom:30px;
-    font-size:30px;
 }
 
 .doctor-card{
-    background:white;
+    background:#fff;
     width:300px;
     margin:20px auto;
     padding:20px;
@@ -78,16 +80,13 @@ header p{
     margin-bottom:10px;
 }
 
-.doctor-card p{
-    font-size:18px;
-}.appointment{
+.appointment{
     padding:50px 20px;
-    background:#ffffff;
     text-align:center;
+    background:#fff;
 }
 
 .appointment h2{
-    font-size:30px;
     margin-bottom:20px;
     color:#0d6efd;
 }
@@ -115,12 +114,12 @@ header p{
 
 .appointment button{
     width:100%;
-    padding:12px;
     background:#0d6efd;
-    color:white;
+    color:#fff;
     border:none;
-    border-radius:8px;
+    padding:12px;
     font-size:18px;
+    border-radius:8px;
     cursor:pointer;
 }
 
@@ -130,7 +129,7 @@ header p{
 
 footer{
     background:#0d6efd;
-    color:white;
+    color:#fff;
     text-align:center;
     padding:20px;
     margin-top:40px;
@@ -143,49 +142,19 @@ footer h3{
 footer p{
     margin:5px 0;
 }
-/* Responsive Design */
 
-@media (max-width:768px){
+@media(max-width:768px){
 
     header h1{
         font-size:28px;
-    }
-
-    header p{
-        font-size:16px;
-    }
-
-    .hero{
-        padding:40px 15px;
     }
 
     .hero h2{
         font-size:26px;
     }
 
-    .hero p{
-        font-size:16px;
-    }
-
     .doctor-card{
-        width:100%;
-        max-width:350px;
-    }
-
-    .appointment form{
-        width:100%;
-        padding:0 10px;
-    }
-
-    .appointment input,
-    .appointment select,
-    .appointment textarea,
-    .appointment button{
-        font-size:16px;
-    }
-
-    footer{
-        padding:15px;
+        width:95%;
     }
 
 }
